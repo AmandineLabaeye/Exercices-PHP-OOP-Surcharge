@@ -56,4 +56,9 @@ class personnage {
     {
         return $this->nom;
     }
-} 
+
+    public function getVie()
+    {
+        return $this->vie;
+    }
+}

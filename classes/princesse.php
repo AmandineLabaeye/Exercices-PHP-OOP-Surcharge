@@ -23,5 +23,10 @@ class princesse extends personnage
         $this->y = 450;
     }
 
+    public function getSaved()
+    {
+        return $this->saved;
+    }
+
 
 } 
